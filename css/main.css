@@ -12,15 +12,16 @@ body {background-color: #00adcb;}
     display: inline-block;
     width: 800px;
     margin-top: 100px;
-    margin-left: calc(100% - 800px) / 2;
+    margin-left: calc (100% - 800px) / 2;
     background-color : yellow;
 }
 .left-column {
+    margin-top: 112px;
     width: 40%;
-    height: 500px;
+    height: 400px;
     padding: 40px;
     float: left;
-    background-color: red;
+    background-color: rgb#5c37a8;
     background-image: url(../kalnai.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,19 +39,72 @@ body {background-color: #00adcb;}
     color: #fff;
 }
 .link {color: #fff}
-.symbol {color:cornflowerblue}
+.symbol {color: red}
 
 
 .right-column {
+    height: 440px;
+    margin-top: 92px;
     width: 60%;
-    padding: 60px;
     float: left;
-    background-color: blue;
+    padding: 60px;
+    background-color: #ffff;
+}
+.close {
+    float: right;
+    width: 28px;
+    height: 28px;
+    opacity: 0.7;
 }
 
-.close {}
 .form {
-    background-color: white;
-    border: 20px blue;
+    padding: 9px;
+    background-color: #ffff;
+    border: 20px red;
     box-sizing: border-box;
 }
+.form-row {
+    height: 24px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0%;
+}
+.form-row + .form-row {
+    margin-top:  40px;
+}
+.label {
+    display:inline-block;
+    width: 100%;
+    Text transform: upercase;
+    font-weight: Bold;
+    font-size: 49px;
+    color: #d2d2d2 ;
+    background-color: #999;
+    line-height: 18px;
+    padding: 4px;
+    
+}
+
+input {  
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+    line-height: 26px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0px;
+  }
+
+  button {
+      width: 180px;
+      height: 38px;
+      background-color: #0165db;
+      color: white;
+      font-size: 20px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      padding: 0px 15px;
+      text-align: center;
+      border-radius: 25px;
+      border: none
+
+  }
