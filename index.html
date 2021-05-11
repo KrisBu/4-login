@@ -5,21 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href= "./css/main.css">
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="shortcut icon" href="./img/fav.png" type="image/png">
 </head>
+
 <body>
+    <div class="background"></div>
     <main class="container">
-        <div class= "left-column">
-            <h1 class= "main-title"Sign up</h1>
-            <div class= "bottom-links">
+        <div class="left-column">
+            <h1 class="main-title">Sign up</h1>
+            <div class="bottom-links">
                 <a class="link" href="#">Privacy policy</a>
-                <span class= "symbol">&</span>
-                <a class"link" href="#"> terms of service</a>
+                <span class="symbol">&</span>
+                <a class="link" href="#">terms of service</a>
             </div>
         </div>
-        <div class="right-column">right
-            <div class="close">x</div>
-            <form class="form" SIGN UP FORM</form>
+        
+        <div class="right-column">
+            <div class="close">X</div>
+            <form class="form">
+                <div class = "form-row">
+                    <label for= "username">Username</label>
+                    <input id= "username" type= "text" placeholder="Enter your username..."  required>
+                </div>
+                <div class = "form-row">
+                    <label for="email">Email</label>
+                    <input id= "email" type= "email" placeholder="Enter your email..."  required>
+                </div>
+                <div class = "form-row">
+                    <label for="password">Password</label>
+                    <input id= "password" type= "password" placeholder="Enter your password..." required>
+                </div>
+                <div class = "form-row">
+                    <label for="repeat password">Repeat Password</label>
+                    <input id="repeat" type= "password" placeholder="Repeat password..." required>
+                </div>
+               <div class="form-row">
+                <button type="submit">Get started</button>
+                <span>or</span>
+                <a href="./login/">Sign in</a>
+               </div>
+            </div>
+                </div>
+            </form>
         </div>
     </main>
 </body>
